@@ -9,6 +9,20 @@
     android:layout_margin="20dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtconversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:text="CAD Currency Coverter"
+        />
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
     <EditText
         android:id="@+id/edtnum1"
         android:layout_width="match_parent"
