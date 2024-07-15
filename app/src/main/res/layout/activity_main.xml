@@ -9,19 +9,28 @@
     android:layout_margin="20dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtconversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:text="CAD Currency Converter"
+        />
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:entries="@array/currency_conversion"
+        />
     <EditText
         android:id="@+id/edtnum1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter num1"
+        android:hint="Enter curreny amount"
         android:layout_margin="20dp"
-        />
-    <EditText
-        android:id="@+id/edtnum2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:hint="Enter num2"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,31 +39,10 @@
         >
         <Button
             android:id="@+id/btn_add"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="add"
-            android:layout_margin="4dp"
-            />
-        <Button
-            android:id="@+id/btn_sub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="sub"
-            android:layout_margin="4dp"
-            />
-        <Button
-            android:id="@+id/btn_mul"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="mul"
-            android:layout_margin="4dp"
-            />
-        <Button
-            android:id="@+id/btn_div"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="div"
-            android:layout_margin="4dp"
+            android:text="convert"
+            android:layout_margin="20dp"
             />
     </LinearLayout>
     <TextView
@@ -66,6 +54,5 @@
         android:gravity="center"
         android:layout_margin="20dp"
         />
-
 
 </LinearLayout>

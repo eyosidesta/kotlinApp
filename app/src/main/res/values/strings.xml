@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">kotlin_app</string>
+    <string-array name="currency_conversion">
+        <item>USD</item>
+        <item>ETB</item>
+        <item>YUAN</item>
+    </string-array>
 </resources>
