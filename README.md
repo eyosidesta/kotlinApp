@@ -1,0 +1,5 @@
+![currency_options](https://github.com/user-attachments/assets/4ab65851-31d9-418d-b782-763d7b398df1)
+![USD_conversion](https://github.com/user-attachments/assets/706a5e9c-2da8-4e14-bebe-fd178db75fa9)
+![USD_currency](https://github.com/user-attachments/assets/449fbd9b-e083-410c-9f46-3dc92727d4a6)
+![ETB_currency](https://github.com/user-attachments/assets/9c2a1dc9-c7bc-49d6-84c0-d190e3a60023)
+![Yuan_currency](https://github.com/user-attachments/assets/9cbccc4c-2a8f-408a-9a6f-61bcdc63991e)
